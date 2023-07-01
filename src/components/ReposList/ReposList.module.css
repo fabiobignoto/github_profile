@@ -1,0 +1,48 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.list__item {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid var(--corSecundaria);
+    border-radius: 8px;
+}
+
+.list__item__name b, .list__item__language b{
+    margin-right: 2px;    
+}
+
+.list__item__link{
+
+    display: block;
+
+    text-decoration: none;
+    text-align: center;
+
+    border-radius: 8px;
+
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+
+    transition: all ease .7s;
+
+    border: 1px solid var(--corSecundaria);
+
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.list__item__link:hover {
+    background-color: var(--corSecundaria);
+    color: var(--corPrincipal);
+}
+
+.warning {
+    text-align: center;
+    font-size: 16px;
+    color: var(--corSecundaria);
+}

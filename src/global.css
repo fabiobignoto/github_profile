@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container_input{
+    padding: 24px;
+    background-color: var(--corPrincipal);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.input_userName {
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px auto;
+    display: block;
+    text-align: center;
+    width: 30%;
+    border: 2px solid var(--corSecundaria);
+}
+
+label{
+    margin: auto 8px
+}
+
+:root {
+    --corPrincipal: #7FA68C;
+    --corSecundaria: #192B38;
+}
